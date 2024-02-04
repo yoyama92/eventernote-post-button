@@ -1,0 +1,16 @@
+{
+  "name": "Eventernote Post Button",
+  "description": "Eventernote のイベントページに「参加ポストする」ボタンを追加するChromeの拡張機能",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "js": [
+        "content_script.js"
+      ],
+      "matches": [
+        "https://www.eventernote.com/events/*"
+      ]
+    }
+  ]
+}
